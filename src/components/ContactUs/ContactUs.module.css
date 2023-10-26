@@ -1,0 +1,21 @@
+.contactUs{
+    margin: 3%;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+   
+}
+
+.contactUs-head{
+    margin-left: 5%;
+    font-size: clamp(2rem , 5vw , 4rem);
+    flex: 1;
+    font-weight: bold;
+}
+
+.contactUs-body{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
+}

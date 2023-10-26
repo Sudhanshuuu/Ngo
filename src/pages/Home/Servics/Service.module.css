@@ -1,0 +1,44 @@
+.service {
+    background-color: rgb(24, 22, 22);
+    text-align: center;
+}
+
+.service-head {
+    padding: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: clamp(2rem, 5vw, 4rem);
+    text-align: center;
+    color: white;
+}
+
+.service-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+}
+
+.service-gallery>img {
+    width: 20vw;
+}
+
+
+.service-gallery>img:nth-of-type(2) {
+    width: 50vw;
+}
+
+.service button {
+    margin: 3%;
+    background-color: white;
+    border: 1px solid black;
+    padding: 2% 5%;
+    border-radius: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.1rem;
+    transition: 0.5s ease-in-out;
+}
+
+.service button:hover {
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}

@@ -1,0 +1,48 @@
+.auth {
+    margin: 5vh;
+    font-family: 'Rubik', sans-serif;
+}
+
+.auth-head {
+    text-align: center;
+    font-size: clamp(1.5rem ,  4vw, 3rem);
+}
+
+.auth-head>span {
+    font-size:clamp(0.75rem, 2vw, 1rem);
+}
+
+.auth-certi {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.auth-certi>img {
+    border-radius: 15px;
+    width: 30vw;
+    transition: all ease-in-out 300ms;
+}
+
+.auth-certi>img:hover{
+    transform: scale(1.05);
+}
+
+@media screen and (max-width:950px) {
+    .auth-certi {
+        flex-direction: column;
+    }
+    .auth-certi>img {
+        margin: 3% 15%;
+        height: 50%;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:750px){
+    .auth-certi>img{
+        margin: 3% 10%;
+        width: 80%;
+
+    }
+}
