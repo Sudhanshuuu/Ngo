@@ -39,10 +39,9 @@ function HamburgerMenu() {
                 </div>
                 <div>
                     <Link>HOME</Link>
-                    <Link >COLLEGES</Link>
-                    <Link>COURSES</Link>
-                    <Link>EXAMS</Link>
-                    <Link>SCHOLARSHIP</Link>
+                    <Link >About Us</Link>
+                    <Link>Certificates</Link>
+                    <Link>Donate</Link>
                 </div>
             </div>
         </div>
