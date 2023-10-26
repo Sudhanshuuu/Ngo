@@ -4,7 +4,7 @@ import Page from "./pages/Page";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/WebDemo">
+      <BrowserRouter basename="/Ngo">
         <Page />
       </BrowserRouter>
     </div>
